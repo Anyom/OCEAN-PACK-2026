@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - OCEAN PARK COMPUTER SERVICES</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>OCEAN PARK</h1>
+                <h2>COMPUTER SERVICES</h2>
+                <p>Mock Exam Portal</p>
+            </div>
+
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="regNumber">Registration Number:</label>
+                    <input 
+                        type="text" 
+                        id="regNumber" 
+                        name="regNumber" 
+                        maxlength="10" 
+                        placeholder="Enter 10-digit registration number" 
+                        required
+                    >
+                </div>
+                <button type="submit" class="btn btn-login">PROCEED TO EXAM</button>
+            </form>
+
+            <div id="loginError" class="error-message"></div>
+            <div id="loginSuccess" class="success-message"></div>
+
+            <div class="login-footer">
+                <p>Don't have a registration number? Contact the exam center.</p>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>&copy; 2026 OCEAN PARK COMPUTER SERVICES. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

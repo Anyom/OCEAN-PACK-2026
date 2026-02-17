@@ -1,0 +1,27 @@
+Quick Deploy Steps
+
+Option A - Render (recommended for Node apps)
+1. Push your repo to GitHub.
+2. Go to https://render.com and create an account.
+3. Click "New" → "Web Service" → Connect to GitHub and select this repo.
+4. Build Command: (leave empty)
+5. Start Command: `node server.js` (or leave, Render auto-detects)
+6. Set any env vars in Render dashboard (none required by default).
+7. Click Create and wait for the stable URL.
+
+Option B - Heroku
+1. Install Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+2. Login: `heroku login`
+3. Create app: `heroku create your-app-name`
+4. Ensure `Procfile` exists (we added one: `web: node server.js`).
+5. Push to Heroku: `git push heroku main`
+6. Open app: `heroku open`
+
+Option C - Docker (deploy to any container host)
+1. Build: `docker build -t ocean-park .`
+2. Run locally: `docker run -p 5000:5000 ocean-park`
+3. Push to a container registry and deploy on your hosting provider.
+
+Notes
+- Ensure `data/*.json` is included only if you want the DB in the repo. We added `.gitignore` to ignore `data/*.json` by default; remove that line if you want to commit the sample DB.
+- For a stable public URL immediately, use Render or Heroku. Both provide HTTPS endpoints and are designed for production.

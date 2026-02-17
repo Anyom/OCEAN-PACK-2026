@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCEAN PARK - Premium Exam Platform</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg width="50" height="50" viewBox="0 0 50 50">
+                        <defs>
+                            <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0088ff;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Ocean waves -->
+                        <path d="M 5 35 Q 10 30 15 35 T 25 35 T 35 35 T 45 35 L 45 50 L 5 50 Z" fill="url(#oceanGrad)" opacity="0.8"/>
+                        <path d="M 5 28 Q 12 22 20 28 T 38 28 T 50 28 L 50 40 Q 10 40 5 40 Z" fill="url(#oceanGrad)" opacity="0.6"/>
+                        <!-- Park tree -->
+                        <circle cx="25" cy="12" r="8" fill="#2ecc71"/>
+                        <rect x="23" y="18" width="4" height="8" fill="#8b4513"/>
+                        <!-- Computer symbol -->
+                        <rect x="12" y="5" width="26" height="12" rx="2" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+                        <line x1="15" y1="8" x2="35" y2="8" stroke="#00d4ff" stroke-width="1"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <h1>OCEAN PARK</h1>
+                    <p>Computer Services</p>
+                </div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="btn btn-secondary" onclick="window.location.href='/index.html'">Login</button>
+                <button class="btn btn-primary" onclick="window.location.href='/admin.html'">Admin</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Transform Your Exam Experience</h2>
+                <p class="hero-subtitle">Welcome to the future of learning - where preparation meets excellence</p>
+                <p class="hero-description">Ace your JAMB exams with our intelligent platform powered by past questions and modern technology</p>
+                
+                <div class="cta-buttons">
+                    <button class="btn btn-hero-primary" onclick="window.location.href='/index.html'">
+                        <i class="fas fa-graduation-cap"></i> Start Exam
+                    </button>
+                    <button class="btn btn-hero-secondary" onclick="scrollToSection('features')">
+                        <i class="fas fa-arrow-down"></i> Learn More
+                    </button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h4>50K+</h4>
+                        <p>Students Trained</p>
+                    </div>
+                    <div class="stat">
+                        <h4>10K+</h4>
+                        <p>Past Questions</p>
+                    </div>
+                    <div class="stat">
+                        <h4>95%</h4>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-header">📚 JAMB Ready</div>
+                    <div class="card-content">Latest past questions</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-header">⚡ Smart AI</div>
+                    <div class="card-content">Adaptive learning</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-header">🎯 Accurate</div>
+                    <div class="card-content">Real exam format</div>
+                </div>
+                <div class="animated-circle circle-1"></div>
+                <div class="animated-circle circle-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Why Choose OCEAN PARK?</h2>
+            <p>Experience excellence in exam preparation</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3>10K+ Past Questions</h3>
+                <p>Automatically generated from authentic JAMB past questions database updated regularly</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Smart AI System</h3>
+                <p>Intelligent question selection that adapts to your learning pattern and weak areas</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <h3>Real-Time Timer</h3>
+                <p>Exactly like JAMB - 2 hours for 180 questions with auto-submit functionality</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Detailed Analytics</h3>
+                <p>Track your progress, identify weak areas, and get personalized recommendations</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>100% Secure</h3>
+                <p>Your data is protected with enterprise-level security and privacy standards</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile Friendly</h3>
+                <p>Practice anywhere, anytime - fully responsive on all devices and browsers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Generation Section -->
+    <section class="jamb-showcase">
+        <div class="section-header">
+            <h2>Smart Question Generation</h2>
+            <p>Powered by authentic JAMB database (2023-2025)</p>
+        </div>
+
+        <div class="showcase-container">
+            <div class="showcase-text">
+                <h3>Questions Generated From JAMB Past Papers</h3>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Automatically curated from JAMB past questions (2023-2025)</li>
+                    <li><i class="fas fa-check-circle"></i> Covers all subjects: English, Math, Physics, Chemistry, Biology, Government</li>
+                    <li><i class="fas fa-check-circle"></i> 50+ verified questions with complete solutions</li>
+                    <li><i class="fas fa-check-circle"></i> Difficulty-weighted for progressive learning</li>
+                    <li><i class="fas fa-check-circle"></i> Topic-based categorization for focused study</li>
+                </ul>
+
+                <div class="filter-section" style="margin-top: 20px; margin-bottom: 20px;">
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <select id="yearFilter" onchange="filterAndLoadQuestion()">
+                            <option value="">All Years</option>
+                            <option value="2025">2025 Papers</option>
+                            <option value="2024">2024 Papers</option>
+                            <option value="2023">2023 Papers</option>
+                        </select>
+                        <select id="subjectFilter" onchange="filterAndLoadQuestion()">
+                            <option value="">All Subjects</option>
+                            <option value="English">English</option>
+                            <option value="Mathematics">Mathematics</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Government">Government</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" onclick="window.location.href='/index.html'">
+                    <i class="fas fa-play-circle"></i> Try Free Questions
+                </button>
+            </div>
+
+            <div class="showcase-visual">
+                <div class="question-preview">
+                    <div class="preview-header">📝 Live Generated Question</div>
+                    <div id="preview-content" class="preview-content">
+                        <p class="q-number">Loading question...</p>
+                    </div>
+                    <button class="btn btn-secondary" onclick="generateSampleQuestion()">
+                        <i class="fas fa-sync-alt"></i> Load Next Question
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready to Excel in Your JAMB Exam?</h2>
+        <p>Join thousands of successful students who have aced their exams using OCEAN PARK</p>
+        <button class="btn btn-hero-large" onclick="window.location.href='/index.html'">
+            <i class="fas fa-rocket"></i> Start Your Journey Now
+        </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>OCEAN PARK</h4>
+                <p>Premium exam preparation platform for JAMB aspirants</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="/index.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@oceanpark.com</p>
+                <p>Phone: +234 (0) 123-456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 OCEAN PARK COMPUTER SERVICES. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>

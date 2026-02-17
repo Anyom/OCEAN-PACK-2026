@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - OCEAN PARK COMPUTER SERVICES</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="header">
+            <h1>OCEAN PARK COMPUTER SERVICES</h1>
+            <h2>Mock Exam - Admin Panel</h2>
+        </div>
+
+        <div class="admin-content">
+            <!-- Register Student Section -->
+            <div class="admin-section">
+                <h3>Register New Candidate</h3>
+                <form id="registerForm" class="form-group">
+                    <div class="form-field">
+                        <label for="studentName">Student Name:</label>
+                        <input type="text" id="studentName" name="name" required placeholder="Enter full name">
+                    </div>
+                    <div class="form-field">
+                        <label for="studentSubject">Subject:</label>
+                        <select id="studentSubject" name="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="English">English</option>
+                            <option value="Mathematics">Mathematics</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Government">Government</option>
+                            <option value="Economics">Economics</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register Candidate</button>
+                </form>
+                <div id="registerResponse" class="response"></div>
+            </div>
+
+            <!-- Upload Questions Section -->
+            <div class="admin-section">
+                <h3>Upload Questions</h3>
+                <form id="uploadForm" class="form-group">
+                    <div id="questionsContainer"></div>
+                    <button type="button" id="addQuestionBtn" class="btn btn-secondary">+ Add Question</button>
+                    <button type="submit" class="btn btn-primary">Upload Questions</button>
+                </form>
+                <div id="uploadResponse" class="response"></div>
+            </div>
+
+            <!-- View Students -->
+            <div class="admin-section">
+                <h3>Registered Students</h3>
+                <button id="viewStudentsBtn" class="btn btn-secondary">Load Students</button>
+                <div id="studentsTable" class="table-container"></div>
+            </div>
+
+            <!-- View Results -->
+            <div class="admin-section">
+                <h3>Exam Results</h3>
+                <button id="viewResultsBtn" class="btn btn-secondary">Load Results</button>
+                <div id="resultsTable" class="table-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
