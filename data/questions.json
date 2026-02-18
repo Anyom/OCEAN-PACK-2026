@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Nigeria?",
+    "optionA": "Lagos",
+    "optionB": "Abuja",
+    "optionC": "Kano",
+    "optionD": "Ibadan",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Which element is a noble gas?",
+    "optionA": "Oxygen",
+    "optionB": "Nitrogen",
+    "optionC": "Neon",
+    "optionD": "Hydrogen",
+    "correctAnswer": "C"
+  },
+  {
+    "id": 3,
+    "question": "What is 2 + 2?",
+    "optionA": "3",
+    "optionB": "4",
+    "optionC": "5",
+    "optionD": "6",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "optionA": "Charles Dickens",
+    "optionB": "William Shakespeare",
+    "optionC": "Jane Austen",
+    "optionD": "Mark Twain",
+    "correctAnswer": "B"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest planet in our solar system?",
+    "optionA": "Earth",
+    "optionB": "Mars",
+    "optionC": "Jupiter",
+    "optionD": "Saturn",
+    "correctAnswer": "C"
+  }
+]
