@@ -1,6 +1,5 @@
 node_modules/
 .env
-data/*.json
 ngrok.zip
 ngrok/
 .DS_Store
