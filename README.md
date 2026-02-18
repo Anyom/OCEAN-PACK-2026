@@ -1,12 +1,6 @@
 # OCEAN PARK COMPUTER SERVICES - MOCK EXAM SYSTEM
 
 A complete web-based Computer-Based Test (CBT) exam system built with Node.js Express and vanilla JavaScript.
-
-## Features
-
-✅ **Admin Panel**
-- Register new candidates (generates 10-digit registration numbers)
-- Upload exam questions with multiple-choice options (A-D)
 - View all registered students
 - View exam results and statistics
 
@@ -324,3 +318,6 @@ OCEAN PARK COMPUTER SERVICES
 **Version**: 1.0.0
 **Last Updated**: February 2026
 **License**: MIT
+=======
+# OCEAN-PACK-2026
+>>>>>>> fc878ed795d69eacb92fdc44c2340fb93f6c09fe
