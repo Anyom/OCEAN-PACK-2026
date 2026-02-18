@@ -1,0 +1,178 @@
+[
+  {
+    "subject": "English",
+    "year": 2023,
+    "question": "Which of the following words is a synonym for 'benevolent'?",
+    "optionA": "malicious",
+    "optionB": "kind",
+    "optionC": "indifferent",
+    "optionD": "hostile",
+    "correctAnswer": "B",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "year": 2023,
+    "question": "If x + 2 = 10, find the value of x",
+    "optionA": "8",
+    "optionB": "10",
+    "optionC": "12",
+    "optionD": "6",
+    "correctAnswer": "A",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Physics",
+    "year": 2023,
+    "question": "What is the SI unit of force?",
+    "optionA": "Watt",
+    "optionB": "Newton",
+    "optionC": "Joule",
+    "optionD": "Pascal",
+    "correctAnswer": "B",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "year": 2023,
+    "question": "Which element has the atomic number 6?",
+    "optionA": "Oxygen",
+    "optionB": "Carbon",
+    "optionC": "Nitrogen",
+    "optionD": "Hydrogen",
+    "correctAnswer": "B",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "year": 2023,
+    "question": "Which organelle is responsible for protein synthesis?",
+    "optionA": "Nucleus",
+    "optionB": "Mitochondria",
+    "optionC": "Ribosome",
+    "optionD": "Golgi apparatus",
+    "correctAnswer": "C",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "English",
+    "year": 2022,
+    "question": "What is the past tense of 'run'?",
+    "optionA": "runned",
+    "optionB": "ran",
+    "optionC": "runned",
+    "optionD": "raned",
+    "correctAnswer": "B",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "year": 2022,
+    "question": "What is 15% of 200?",
+    "optionA": "20",
+    "optionB": "25",
+    "optionC": "30",
+    "optionD": "35",
+    "correctAnswer": "C",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Physics",
+    "year": 2022,
+    "question": "What is the speed of light in vacuum?",
+    "optionA": "3 × 10^8 m/s",
+    "optionB": "2 × 10^8 m/s",
+    "optionC": "4 × 10^8 m/s",
+    "optionD": "5 × 10^8 m/s",
+    "correctAnswer": "A",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "year": 2022,
+    "question": "What is the chemical formula for sodium chloride?",
+    "optionA": "NaCl2",
+    "optionB": "Na2Cl",
+    "optionC": "NaCl",
+    "optionD": "Na3Cl",
+    "correctAnswer": "C",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "year": 2023,
+    "question": "Who is the current President of Nigeria?",
+    "optionA": "Muhammadu Buhari",
+    "optionB": "Bola Ahmed Tinubu",
+    "optionC": "Goodluck Jonathan",
+    "optionD": "Olusegun Obasanjo",
+    "correctAnswer": "B",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "year": 2023,
+    "question": "Solve: 2x + 5 = 15",
+    "optionA": "x = 5",
+    "optionB": "x = 10",
+    "optionC": "x = 3",
+    "optionD": "x = 7",
+    "correctAnswer": "A",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Physics",
+    "year": 2023,
+    "question": "What is the formula for kinetic energy?",
+    "optionA": "KE = mgh",
+    "optionB": "KE = 1/2 mv²",
+    "optionC": "KE = mg",
+    "optionD": "KE = Fd",
+    "correctAnswer": "B",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "year": 2023,
+    "question": "What is the valency of oxygen?",
+    "optionA": "1",
+    "optionB": "2",
+    "optionC": "3",
+    "optionD": "4",
+    "correctAnswer": "B",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "year": 2022,
+    "question": "How many pairs of chromosomes do humans have?",
+    "optionA": "46",
+    "optionB": "23",
+    "optionC": "48",
+    "optionD": "24",
+    "correctAnswer": "B",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "English",
+    "year": 2022,
+    "question": "Which of the following is a metaphor?",
+    "optionA": "The sun is as bright as gold",
+    "optionB": "The sun is a golden disk",
+    "optionC": "The sun shines brightly",
+    "optionD": "The sun is very bright",
+    "correctAnswer": "B",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "year": 2022,
+    "question": "What is the square root of 144?",
+    "optionA": "10",
+    "optionB": "11",
+    "optionC": "12",
+    "optionD": "13",
+    "correctAnswer": "C",
+    "difficulty": "easy"
+  }
+]

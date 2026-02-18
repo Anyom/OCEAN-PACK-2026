@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ONU JOHNSON OGECHUKWU",
+    "subject": "English",
+    "regNumber": "3098190924",
+    "registeredDate": "2026-02-17T21:06:41.760Z"
+  },
+  {
+    "id": 2,
+    "name": "ONU JOHNSON OGECHUKWU",
+    "subject": "Mathematics",
+    "regNumber": "9173530766",
+    "registeredDate": "2026-02-17T21:17:25.131Z"
+  },
+  {
+    "id": 3,
+    "name": "JOHNSON",
+    "subject": "English",
+    "regNumber": "7270716569",
+    "registeredDate": "2026-02-17T21:18:35.644Z"
+  }
+]
